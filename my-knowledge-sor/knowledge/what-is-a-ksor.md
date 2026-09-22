@@ -1,40 +1,56 @@
 ---
 type: Document
-title: What a Knowledge System of Record is
-description: The authoritative, governed knowledge layer humans, agents and software operate from.
+title: About Syed Konain Nasir
+description: Full-stack software engineer focused on product engineering, secure systems, and practical AI.
 status: stable
 order: 1
-generated: { by: "ksor-starter/0.0.60", at: 2026-08-25T00:00:00Z }
+generated: { by: "syed-konain-nasir/0.1.0", at: 2026-09-22T00:00:00Z }
 ksor:
   audience: [public]
-  approval: { by: "ksor-starter/0.0.60", at: 2026-08-25T00:00:00Z }
+  approval: { by: "syed-konain-nasir", at: 2026-09-22T00:00:00Z }
 ---
 
-A traditional system of record establishes what is true about the current state
-of a business: the ledger is authoritative for transactions, the HRIS for
-employee records. When a spreadsheet disagrees with the ledger, the ledger wins.
+I like building things that work well and feel considered — solid engineering
+underneath, practical AI where it actually helps, and product decisions that
+keep the user experience in view.
 
-A Knowledge System of Record establishes something else — what the organization
-knows and how it should operate. Which policies apply, which thresholds are
-approved, what a term means here, and what to do when the answer is not known.
+I’m a full-stack software engineer with 2+ years of professional experience,
+including 1.5+ years in a full-time role. I hold a Bachelor of Science in
+Computer Science and certifications in Full-Stack Development, Web3 and
+Metaverse Technologies, and AI Engineering.
 
-## The problem it solves
+## Approach
 
-That knowledge is usually scattered across wikis, decks, PDFs, prompts and
-someone's memory, with no authoritative answer to the question an agent has to
-ask: which knowledge should I trust?
+My approach is straightforward: build systems that are dependable, clear, and
+useful. I care about the quality of the engineering, the usability of the
+product, and the real-world value of the final result rather than chasing
+trends for their own sake.
 
-### Why an assistant cannot answer that question
+## Technical work
 
-An assistant answers from everything it has ever read, which is exactly why it
-cannot tell you which of its sentences were checked. Businesses have had a
-system of record for decades. AI never did.
+I’m comfortable across the stack, with hands-on experience in TypeScript,
+JavaScript, Next.js, React, PostgreSQL, Nginx, REST APIs, WebSockets, Redis,
+Tailwind CSS, FastAPI, Docusaurus, Git, npm, Linux, Vercel, and Cloudflare.
+I enjoy building end-to-end software from concept to deployment and improving
+it over time with the feedback that comes from real use.
 
-## What this record settles, and what it does not
+## Current focus
 
-It settles which copy governs. Every answer traces to a document here, and that
-document names who stands behind it and when it took effect.
+I’m currently focused on advancing my full-stack development and DevSecOps
+expertise while building AI agents and RAG-based systems. I’m especially
+interested in practical implementations of AI that solve real problems without
+making the product feel bloated or overengineered.
 
-It does not settle whether that document is right. Provenance proves who said
-what, and when — the judgement of whether a source is any good is a separate
-matter, and this record never claims otherwise.
+## Selected projects
+
+A few projects that reflect the way I build include AutoVerse, a RAG-powered
+shopping assistant shipped as an npm package, and DGMAGAZINE, a full-featured
+interactive magazine platform. I value products that handle complex workflows
+cleanly while still feeling polished and intuitive.
+
+## Contact
+
+- Email: hello@syedkonainnasir.dev
+- GitHub: https://github.com/konain611
+- LinkedIn: https://www.linkedin.com/in/syedkonainnasir/
+- X: https://x.com/syedkonain_7
