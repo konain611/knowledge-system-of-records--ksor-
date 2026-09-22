@@ -112,7 +112,7 @@ export function HomeCover({
                 href={firstUrl}
                 className="group inline-flex items-center gap-2.5 rounded-md bg-fd-primary px-6 py-3.5 text-sm font-medium text-fd-primary-foreground transition-transform hover:-translate-y-px focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-fd-ring motion-reduce:transition-none"
               >
-                Open the record
+                View my portfolio
                 <span
                   aria-hidden
                   className="transition-transform group-hover:translate-x-0.5 motion-reduce:transform-none"
