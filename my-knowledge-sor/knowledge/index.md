@@ -2,8 +2,12 @@
 okf_version: "0.2"
 ---
 
-# KSoR
+# Syed Konain Nasir
 
-* [What a Knowledge System of Record is](what-is-a-ksor.md) - The authoritative, governed knowledge layer humans, agents and software operate from.
-* [The governance ladder](governance-ladder.md) - Level 0 works immediately; a project climbs only as far as its domain needs.
-* [Surfaces](surfaces/)
+* [About me](what-is-a-ksor.md) - Full-stack software engineer focused on practical AI, dependable systems, and thoughtful product engineering.
+* [Education](governance-ladder.md) - B.S. in Computer Science with certifications in Full-Stack Development, Web3, Metaverse, and AI Engineering.
+* [Experience](surfaces/) - Full-stack software engineer with 2+ years of professional experience, including 1.5+ years in a full-time role.
+* [Skills](surfaces/) - TypeScript, JavaScript, Next.js, React, PostgreSQL, Nginx, REST APIs, WebSockets, Redis, Tailwind CSS, FastAPI, Git, Linux, Vercel, and Cloudflare.
+* [Current focus](surfaces/) - Advancing DevSecOps expertise while building AI agents and RAG-based systems.
+* [Projects](surfaces/) - AutoVerse, DGMAGAZINE, and other work spanning product and engineering.
+* [Contact](surfaces/) - GitHub, LinkedIn, X, and email details for direct connection.
