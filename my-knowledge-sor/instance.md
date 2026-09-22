@@ -1,65 +1,97 @@
 ---
 format: 2
-name: my-knowledge-sor
-title: KSoR
-description: What a Knowledge System of Record is, how a project climbs the governance ladder, and which surfaces publish the same governed knowledge.
+name: syed-konain-nasir
+title: Syed Konain Nasir
+description: Full-stack software engineer building practical AI products and dependable web systems.
 toolchain:
   requires: ">=0.0.60"
   scaffolded: "0.0.60"
-# `database.dsn_env` names the environment variable holding your Postgres DSN —
-# never the DSN itself, which belongs in .env. It is filled in because naming a
-# variable costs nothing and needs no database: `npm run dev` and `npm run build` do
-# not read it, and the value only has to exist when you climb to the served
-# rung. To climb: copy .env.example to .env and set KSOR_DB_URL, then
-# `npm run provision` once (schema + grant), then `npm run refresh` to PUBLISH the
-# record, then `npm run serve`. Serving does not publish — that is deliberate, and
-# skipping refresh serves nothing.
-# Nothing else here is required:
-# `embedding:` already defaults to Gemini at 1536 dimensions, and leaving
-# `retrieval:` out starts you with the abstention gate off and honest about it
-# (turn it on afterwards with `ksor calibrate`, once the record is serving).
 database:
   dsn_env: KSOR_DB_URL
-# Where agents reach this record's MCP surface, and the semver it publishes as.
-# Both go into /.well-known/mcp/server.json, the document an agent reads to
-# DISCOVER this record instead of being told the URL. Leave mcp_url out until
-# the server is actually published: an invented URL is worse than none.
-# mcp_url: https://records.example.com/mcp
+# mcp_url: https://syedkonain.vercel.app/mcp
 # version: 0.1.0
 ---
 
-This record is authoritative for what a Knowledge System of Record is, how a
-project climbs the governance ladder, and which surfaces the same governed
-knowledge is published through. It does not cover the CLI's release history or
-the internals of the retrieval kernel.
+This record is authoritative for Syed Konain Nasir's professional profile,
+experience, education, skills, current focus, and portfolio work. It covers
+full-stack engineering, practical AI systems, production-ready software,
+product thinking, and the tools and technologies behind reliable digital
+products.
 
 Write and govern the knowledge once; every surface here derives from it. When a
-slide deck, a wiki page or a model's memory disagrees with this record, this
-record wins.
+portfolio page, résumé summary, or project description disagrees with this
+record, this record wins.
 
-## This is a starter, and it is yours to replace
+## About me
 
-Everything above describes KSoR itself. It ships filled in so that a fresh
-project has a real governed corpus on the first `npm run dev` — five approved
-documents, three of them inside a folder, and one carrying a summary
-companion — instead of an empty shelf and a placeholder.
-The documents live in `knowledge/`; delete them as your own knowledge arrives.
+I’m Syed Konain Nasir, a full-stack software engineer with 2+ years of
+professional experience, including 1.5+ years in a full-time role. I hold a
+Bachelor of Science in Computer Science and multiple certifications in
+Full-Stack Development, Web3 and Metaverse Technologies, and AI Engineering.
 
-Be deliberate about replacing it, because a starter that describes the wrong
-thing describes it _everywhere_. Three things here are read by every surface:
+I like building things that work well and feel considered — strong engineering
+underneath, thoughtful product decisions, and practical AI where it genuinely
+helps rather than where it is trendy. I care about building software that is
+reliable in production, useful to users, and clear in how it solves real-world
+problems.
 
-- **`title:`** is the display title — the human name every page leads with and
-  the heading of the record's root index. The machine identity stays
-  `my-knowledge-sor` in `name:`, and that is what citations and `llms.txt` use.
-- **`description:`** is one sentence that seeds `llms.txt` and the MCP
-  discovery document.
-- **This body** is the MCP server's instructions, handed in full to every
-  connecting agent; its first paragraph is this record's scope, which the site
-  publishes. A record published with it unchanged will tell an agent — quite
-  accurately, and quite uselessly for you — that it is authoritative for what
-  a Knowledge System of Record is.
+## Education
 
-Ask your coding agent to run the **intake interview** (it knows how — see
-`.agents/skills/intake-interview/`), answer its questions, and let it write
-this document with you. Replace those three and every surface follows,
-because every surface reads them from here.
+- Bachelor of Science (B.S.) in Computer Science
+- Certifications in Full-Stack Development
+- Certifications in Web3 and Metaverse Technologies
+- Certifications in AI Engineering
+
+## Experience
+
+I’ve worked as a Full-Stack Software Engineer, designing, developing,
+securing, deploying, and maintaining end-to-end software solutions from
+concept and architecture through production release and ongoing improvement.
+My work spans product development, backend systems, frontend experiences,
+deployment workflows, and iterative optimization in live environments.
+
+## Skills
+
+I’m comfortable across the stack with:
+
+- TypeScript and JavaScript
+- Next.js and React
+- PostgreSQL
+- Nginx and REST APIs
+- WebSockets and Redis
+- Tailwind CSS
+- FastAPI
+- Docusaurus
+- Git, npm, Linux
+- Vercel and Cloudflare
+
+I enjoy working across the full product lifecycle, from building interfaces and
+APIs to shipping and refining production systems.
+
+## Current focus
+
+I’m currently focused on advancing my Full-Stack Development and DevSecOps
+expertise while building AI agents and RAG-based systems. I’m especially
+interested in practical implementations of AI that improve product value,
+workflow efficiency, and user experience without overengineering the stack.
+
+## Projects and highlights
+
+I’ve worked on projects such as:
+
+- AutoVerse — a RAG-powered shopping assistant shipped as an npm package
+- DGMAGAZINE — a full-featured interactive magazine platform
+
+I value clean architecture, reliable delivery, and products that are both
+useful and polished.
+
+## Contact and links
+
+- Email: hello@syedkonainnasir.dev
+- GitHub: https://github.com/konain611
+- LinkedIn: https://www.linkedin.com/in/syedkonainnasir/
+- X: https://x.com/syedkonain_7
+- Portfolio: https://syedkonain.vercel.app/
+
+This profile represents my current work, learning, and direction as a
+full-stack engineer focused on dependable software and useful AI systems.
